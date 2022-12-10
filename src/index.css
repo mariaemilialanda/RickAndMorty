@@ -5,6 +5,8 @@ body {
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  background-image: url("./assests/rick-and-morty-background-rick-morty-and-man-sky-mashup-wallpaper-taken-from-4.png");
+background-size: cover;
 }
 
 code {

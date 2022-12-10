@@ -1,0 +1,22 @@
+.nav {
+    background-color: #003566;
+    margin: 0px;
+    position: relative;
+    top: -10px;
+    display: flex;
+    justify-content:space-around;
+    align-items: center;
+    padding: 15px;
+}
+.link {
+    color: white;
+    font-size: 18px;
+    text-decoration: none;
+}
+.isActive{
+    color: #e85d04;
+    font-size: 18px;
+    font-weight: bold;
+    text-decoration: none;  
+}
+

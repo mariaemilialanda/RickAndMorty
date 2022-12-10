@@ -1,0 +1,46 @@
+.singleCard {
+    background-color: #faf4f5;
+    border: solid #ffd051;
+    font-family: Arial, Helvetica, sans-serif;
+    width: 18em;
+    height: 25em;
+    border-radius: 1.5em;    overflow: hidden;
+    margin: 2em;
+    position: relative;
+    box-shadow: 0 0 10px rgba(164, 27, 61, 0.8);
+  }
+
+.singleCard h2 {
+    margin-top: 0.2em;
+    margin-bottom: 0.01em;
+    color: #15bba7;
+    font-size: 1.8em;
+    text-shadow: 0 0 2px rgba(84, 117, 128, 0.8);
+}
+
+.singleCard h3 {
+  color: #bc205c;
+  margin-bottom: 0.02em;
+  margin-top: 0.01em;
+  text-shadow: 0 0 2px  rgba(164, 27, 61, 0.8);
+}
+
+.singleCard button {
+    border: #bc205c solid;
+    border-width: 0.15em;
+    border-radius: 0.5em;
+    margin: 0.5em;
+    display: flex;
+    justify-content: flex-end;
+  }
+  
+  .singleCard button:hover {
+    background-color:#3fcdbc;
+    border-radius: 0.5em;
+    margin: 0.5em;
+    cursor: pointer;
+  }
+  
+.singleCard img{
+  width: 17.9em;
+}

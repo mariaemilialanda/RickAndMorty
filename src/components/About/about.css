@@ -1,0 +1,12 @@
+@font-face {
+    font-family: rick_and_morty;
+    src: url(../../assests/get_schwifty.ttf);
+}
+
+.h1{
+    font-family: rick_and_morty;
+    font-weight: bold;
+    font-size: 100px;
+    color: #b53e6d;
+    text-shadow: 0 0 50px rgba(250, 213, 2, 0.989); ;
+}

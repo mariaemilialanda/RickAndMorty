@@ -1,0 +1,55 @@
+@font-face {
+    font-family: rick_and_morty;
+    src: url(../../assests/get_schwifty.ttf);
+}
+
+.h1, .h2, .label, .btn{
+    font-family: rick_and_morty;
+    font-weight: bold;
+
+}
+.h1{
+    font-size: 100px;
+    color: #b53e6d;
+    text-shadow: 0 0 50px rgba(250, 213, 2, 0.989); ;
+}
+
+.h2, .label{
+    color: rgb(42, 134, 187);
+    text-shadow: 0 0 35px rgb(255, 242, 0); ;
+}
+
+.h2{
+    font-size: 50px;
+}
+
+.container{
+ background-color: rgb(249, 216, 69) ;
+ opacity: 80%;
+ width: 20%;
+ margin-left: 46em;
+ border: solid #b53e6d;
+ border-radius: 0.3em;
+ display: flex;
+ flex-direction: column;
+}
+
+.label{
+    font-size: 28.5px;
+    margin-right: 0.5em;
+ }
+
+ .box{
+    width: 20em;
+ }
+
+.btn{
+ margin-top: 1em;
+ width: 5em;
+ height: 2em;
+ color:#b53e6d;
+ font-size: 23px;
+ background-color:rgb(249, 216, 69);
+ border: #b53e6d;
+ border-radius: 0.5em;
+}
